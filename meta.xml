@@ -1,0 +1,11 @@
+﻿<meta>
+  <info name="Roleplay" description="Roleplay gamemode." author="iamkryfor" version="1.0" type="gamemode"></info>
+  <script src="Services/AbstractService.cs" type="server" lang="csharp" />
+  <script src="Services/Hospital.cs" type="server" lang="csharp" />
+  <script src="Services/Police.cs" type="server" lang="csharp" />
+  <script src="Jobs/AbstractJob.cs" type="server" lang="csharp" />
+  <script src="Jobs/JobsManager.cs" type="server" lang="csharp" />
+  
+  <script src="menus.ts" type="client" lang="javascript" />
+  <include resource="ServerCore" />
+</meta>
